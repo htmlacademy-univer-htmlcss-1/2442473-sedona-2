@@ -4,9 +4,192 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
+    <!--Header-->
+    <header class="page-header">
+      <nav class="navigation">
+        <a class="navigation-logo" href="index.html">
+          <img class="logo-sedona" src="#" alt="Логотип City of Sedona">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about-sedona.html">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="hotel-catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Хочу сюда!
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <!--Main-->
+    <main class="main-home-page">
+      <h1 class="visual-hidden">Welcome to the gorgerous Sedona. Because the Grand Canyon sucks!</h1>
+      <img class="logo" src="#" alt="Логотип Седоны.">
 
+      <!--подводка к приемуществам-->
+      <section class="advantages">
+        <h2 class="advantages-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p class="advantages-lil-title">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+
+      <!--список приемуществ-->
+      <section class="reasons-for-coolness">
+        <h2 class="visually-hidden">Причины крутости</h2>
+        <ul class="reasons-for-coolness-list">
+          <li class="reasons-for-coolness-item">
+            <h3 class="reasons-for-coolness-title">Настоящий городок</h3>
+            <p class="reasons-for-coolness-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </li>
+          <li class="reasons-for-coolness-item">
+            <img class="reasons-for-coolness-picture" src="#" alt="фото улицы Седоны">
+          </li>
+        </ul>
+        <ul class="reasons-for-coolness-list middle-row">
+          <li class="reasons-for-coolness-item">
+            <h3 class="reasons-for-coolness-title">Небольшая площадь</h3>
+            <p class="reasons-for-coolness-description">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="reasons-for-coolness-item">
+            <h3 class="reasons-for-coolness-title">Красивая дорога</h3>
+            <p class="reasons-for-coolness-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="reasons-for-coolness-item">
+            <h3 class="reasons-for-coolness-title">Мало туристов</h3>
+            <p class="reasons-for-coolness-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+        <ul class="reasons-for-coolness-list bottom-row">
+          <li class="reasons-for-coolness-item">
+            <img class="reasons-for-coolness-picture" src="#" alt="фото моста дьявола">
+          </li>
+          <li class="reasons-for-coolness-item">
+            <h3 class="reasons-for-coolness-title">Там есть мост дьявола</h3>
+            <p class="reasons-for-coolness-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </li>
+        </ul>
+      </section>
+
+      <!--Приглашение и подводка к услугам-->
+      <section class="servicing">
+        <h2 class="servicing-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p class="servicing-lil-title">Опытный персонал и качественное обслуживание!</p>
+      </section>
+
+      <!--Мини список-->
+      <h2 class="visually-hidden">Услуги</h2>
+      <ul class="service-list">
+        <li class="service-item">
+          <h3 class="service-title">Жильё</h3>
+          <p class="service-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </li>
+        <li class="service-item">
+          <h3 class="service-title">Еда</h3>
+          <p class="service-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+        </li>
+        <li class="service-item">
+          <h3 class="service-title">Сувениры</h3>
+          <p class="service-description">Не только китайского, но и настоящего местного производства!</p>
+        </li>
+      </ul>
+
+      <!-- Поиск гостиницы  -->
+      <section class="hotel-search">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class=" button hotel-button" href="hotel-search.html">Поиск гостиницы в Седоне</a>
+      </section>
+
+
+
+    <!--Footer-->
+    <footer class="page-footer">
+      <!--Рассылка-->
+      <section class="email-newsletter">
+        <h2>Подпишитесь на рассылку!</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email">Ваш e-mail</label>
+          <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button newsletter-button" type="submit">
+            <span class="visually-hidden">Подписаться</span>
+          </button>
+        </form>
+      </section>
+    </main>
+      <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy ">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+        <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+      </section>
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <address class="contacts-phone">
+          <a class="contacts-phone-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </address>
+      </section>
+      <a class="logo" href="https://htmlacademy.ru/">
+        <img class="logo-picture" alt="Логотип html-academy»." src="#">
+      </a>
+    </footer>
   </body>
 </html>
+
+
+<!--Кроссбраузерность
+Chrome: последняя стабильная версия.
+Firefox: последняя стабильная версия.
+Safari: последняя стабильная версия (для студентов с macOS).
+ОБЩИЕ ТРЕБОВАНИЯ
+При нехватке контента страницы подвал прижат к низу страницы.
+Модальные окна должны позиционироваться относительно видимой части экрана.
+Иконки социальных сетей в футере ведут на профили .html academy:
+Vkontakte — https://vk.com/htmlacademy
+Telegram — https://t.me/htmlacademy
+Youtube — https://www.youtube.com/user/htmlacademyru
+Логотип .html academy ведёт на главную страницу сайта разработчика — https://htmlacademy.ru/
+Оживлять макет не нужно, нужна только вёрстка
+Браузерный фокус — фокус, который отрабатывает в браузере по умолчанию.-->
