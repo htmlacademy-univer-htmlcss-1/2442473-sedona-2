@@ -1,0 +1,361 @@
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333; /*цвет текста*/
+  background-color: #ffffff;
+
+}
+
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.blue-button{
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.brown-button{
+  color: #ffffff;
+  background-color: #756157;
+}
+
+.newsletter-button{
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3
+}
+
+
+/* Pages */
+.page-header {
+  color: #000000;
+}
+
+.navigation-link {
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+
+.main-home-page {
+  color: #333333;
+  background-color:  #ffffff;
+  background-image: url("../images/main/sedona-landscapes.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+
+/* Titles about Sedona */
+.advantages{
+  font-style: normal;
+  text-align: center;
+
+}
+
+.advantages-title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+}
+
+.advantages-lil-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: no-uppercase;
+}
+
+
+/* Index columns */
+.reasons-for-coolness{
+  color: #ffffff;
+  background-color: #82B3D3;
+  font-style: normal;
+}
+
+.reasons-for-coolness-title{
+  /*width: 175px;*/
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reasons-for-coolness-description{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  align-self: stretch;
+  text-align: center;
+}
+
+.reasons-for-coolness-list-middle-row{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url("../images/main/background-pictures/background.svg");
+}
+
+.reasons-for-coolness-item{
+  text-align: center;
+}
+
+/* Servise Title */
+.servicing{
+  text-align: center;
+  font-style: normal;
+
+}
+.servicing-title{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+}
+
+.servicing-lil-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: no-uppercase;
+}
+
+.service-list{
+  text-align: center;
+  font-style: normal;
+  align-self: stretch;
+  background-image: url("../images/main/background-pictures/backgroung-deep.svg");
+}
+
+.service-title{
+  color:#000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.service-description{
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+
+/* Hotel Title */
+.hotel-search{
+  text-align: center;
+  font-style: normal;
+
+}
+.hotel-title{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+}
+
+.hotel-lil-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: no-uppercase;
+}
+
+/*Footer*/
+.email-newsletter{
+  color: #000000;
+  background-color: #ffffff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-style: normal;
+}
+
+.first-page{
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/footer/blurred-landscape.jpg");
+
+}
+
+.email-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.page-footer{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.page-footer a{
+  color: #000000;
+  text-decoration: none
+}
+
+
+.contacts-phone{
+  font-style: normal;
+  text-align: center;
+}
+
+.contacts-phone-number{
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  text-transform: uppercase;
+}
+
+
+.catalog-hotels-filter{
+  color: #ffffff;
+  background-color: #82B3D3;
+  background-image: url("../images/main/landscapes-blurred-spage.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-style: normal;
+}
+
+
+
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #ffffff;
+}
+/* Link */
+.breadcrumbs-link {
+  color: inherit;
+}
+
+
+/* Title */
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* Label */
+.control{
+  font-weight: 400;
+}
+
+/*Сортировка*/
+.select-control{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Card-item */
+.hotel-card{
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* Link */
+.hotel-card-link {
+  text-decoration: none;
+}
+
+/* Title */
+.hotel-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+/* Price */
+.hotel-card-price {
+  text-align: right
+}
+
+
+/* Link */
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pagination-current{
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-next{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*кнопка сброса, звезды*/
